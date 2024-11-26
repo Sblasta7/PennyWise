@@ -5,11 +5,11 @@ A budgeting and investment mobile application as a personal project to simplify 
 
 ---
 ## Table of Contents
-- [Features](#features)  
-- [Installation](#installation)  
-- [Technology Stack](#technology-stack)
-- [Screenshots](#screenshots)
-- [License](#license)  
+- [Features](#✨-features)  
+- [Installation](#🚀-installation)  
+- [Technology Stack](#💻-technology-stack)
+- [Screenshots](#📸-screenshots)
+- [License](#📝-license)  
 
 ---
 
@@ -33,7 +33,7 @@ A budgeting and investment mobile application as a personal project to simplify 
   Intuitive design with material components for seamless navigation.  
 
 ---
-## **Installation**
+## 🚀 **Installation**
 
 Follow these steps to set up and run the Kotlin app on your local machine:
 
