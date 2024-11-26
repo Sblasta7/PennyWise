@@ -7,14 +7,13 @@ A budgeting and investment mobile application as a personal project to simplify 
 ## Table of Contents
 - [Features](#features)  
 - [Installation](#installation)  
-- [Usage](#usage)  
-- [Technology Stack](#technology-stack)  
-- [Contributing](#contributing)  
+- [Technology Stack](#technology-stack)
+- [Screenshots](#screenshots)
 - [License](#license)  
 
 ---
 
-## **Features**  
+## ✨ **Features**  
 - **Expense Tracking:**  
   Log and categorize daily expenses to monitor spending habits.  
 
@@ -113,25 +112,36 @@ You’re all set! 🎉 If you encounter any additional issues, don’t hesitate 
 
 ---
 
+## 💻 **Technology Stack**  
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/en)  
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white)](https://firebase.google.com/)
+[![Firestore](https://img.shields.io/badge/Firestore-FFBB33?style=for-the-badge&logo=firebase&logoColor=white)](https://firebase.google.com/docs/firestore)
+[![Firebase Authentication](https://img.shields.io/badge/Firebase_Authentication-FFCA28?style=for-the-badge&logo=firebase&logoColor=white)](https://firebase.google.com/docs/auth)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
+
+---
+
+## 📸 Screenshots
+
+| Feature           | Screenshot                                                                                     |
+|-------------------|------------------------------------------------------------------------------------------------|
+| Home Page         | <img src="https://github.com/user-attachments/assets/b5c63e86-24b5-4550-a7bd-74b9d8137694" width="200" height="355"/> |
+| Transactions Page | <img src="https://github.com/user-attachments/assets/30a880a6-61c4-4385-9d21-5a68c01c5884" width="200" height="355"/> |
+| Categories Page   | <img src="https://github.com/user-attachments/assets/1c7b8816-f291-432a-b631-86a743cb8fc2" width="200" height="355"/> |
+| Goals Page        | <img src="https://github.com/user-attachments/assets/e0be9a76-253f-43e1-adc4-f98b67232e4c" width="200" height="355"/>  |
+| Analytics Page    | <img src="https://github.com/user-attachments/assets/faa0d51d-ea48-4a0d-b3cd-3c3c09ec55c6" width="200" height="355"/>  <img src="https://github.com/user-attachments/assets/bed37574-8668-44c1-8741-1b6e98d4633c" width="200" height="355"/> |
+| Market Screen     | <img src="https://github.com/user-attachments/assets/6f97ecae-f246-43fa-9df1-76f7cb1f8df9" width="200" height="355"/> |
+| Portfolio Screen  | <img src="https://github.com/user-attachments/assets/4136a44b-d517-4b63-83d7-b57f3dbb2798" width="200" height="355"/> |
+| Stock Screen      | <img src="https://github.com/user-attachments/assets/b3eba4a4-9a07-4f6f-b937-c87d14498f17" width="200" height="355"/> |
 
 
+---
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).  
+Feel free to use, modify, and distribute it as per the license terms.
 
 
-## **Technology Stack**  
-
-- **Frontend**:  
-  - Kotlin (Android Studio)  
-
-- **Backend**:  
-  - Node.js  
-  - Firebase Admin SDK  
-
-- **Database**:  
-  - Firestore  
-
-- **Authentication**:  
-  - Firebase Authentication  
-
-- **CI/CD**:  
-  - GitHub Actions for automated testing and deployment  
 
