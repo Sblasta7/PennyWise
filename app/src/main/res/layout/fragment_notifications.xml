@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="25dp"
+    android:paddingHorizontal="20dp"
+    tools:context=".view.fragment.NotificationsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Notifications Toggle -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/settings_background"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_notifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/notification"
+                android:thumbTint="@color/white"
+                android:trackTint="@color/black"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+        <!-- Transaction Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/transaction"
+            android:fontFamily="@font/inter_bold"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/settings_background"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginTop="10dp">
+
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_notify_purchase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:thumbTint="@color/white"
+                android:trackTint="@color/black"
+                android:text="@string/notify_after_every_purchase"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+
+        <!-- Goal Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/goals"
+            android:fontFamily="@font/inter_bold"
+            android:textSize="24sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/settings_background"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginTop="10dp">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_notify_goal_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:thumbTint="@color/white"
+                android:trackTint="@color/black"
+                android:text="@string/notify_at_25_50_and_75_progress"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/settings_background"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginTop="10dp">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_alert_goal_reached"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:thumbTint="@color/white"
+                android:trackTint="@color/black"
+                android:text="@string/alert_when_goal_is_reached"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+        <!-- General Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/general"
+            android:fontFamily="@font/inter_bold"
+            android:textSize="24sp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/settings_background"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginTop="10dp">
+
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_notify_profile_updated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:thumbTint="@color/white"
+                android:trackTint="@color/black"
+                android:text="@string/notify_when_profile_is_updated"
+                android:textSize="15sp"
+                android:fontFamily="@font/inter_medium"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/settings_background"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginTop="10dp">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_alert_new_logins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:thumbTint="@color/white"
+                android:trackTint="@color/black"
+                android:text="@string/alert_for_new_logins_or_failed_attempts"
+                android:textSize="15sp"
+                android:fontFamily="@font/inter_medium"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
